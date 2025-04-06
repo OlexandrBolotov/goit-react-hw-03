@@ -1,0 +1,19 @@
+.search_box{
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.search_box label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.search_box input {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #2b2a2a;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

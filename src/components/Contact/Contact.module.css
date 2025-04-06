@@ -1,0 +1,38 @@
+.contact_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  border: 1px solid #888;
+  border-radius: 6px;
+
+  min-height: 100px;        
+  min-width: 260px;         
+  flex: 1 1 260px;         
+  box-sizing: border-box;
+}
+
+
+.contact_card p {
+  margin: 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.contact_btn{
+     padding: 8px 16px;
+  font-size: 14px;
+  background-color: #eee;
+  border: 1px solid #888;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+  align-self: center;
+}
+.contact_btn:hover{
+  background-color: #ddd;
+  border-color: #777;
+}
